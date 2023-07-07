@@ -1,5 +1,6 @@
 ##############################################################
 ###### This code defines the PH landmark selection function and all its help functions
+# Original source: https://github.com/stolzbernadette/Outlier-robust-subsampling-techniques-for-persistent-homology
 
 
 import numpy as np
@@ -161,6 +162,7 @@ def getPHLandmarks(point_cloud, topological_radius, sampling_density, scoring_ve
 	return PH_landmarks, sorted_indices_point_cloud_original_order, number_of_super_outliers
 
 # #####
+# From here is our authorship
 
 from scipy.spatial import Delaunay
 from scipy.spatial import distance_matrix
