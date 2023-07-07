@@ -1,3 +1,3 @@
-# Trainability and Explainability in Simplicial Map Neural Networks
+# Trainable and Explainable Simplicial Map Neural Networks
 
-This code provide the implementation of SMNNs and different experiments.
+This code provides the implementation of SMNNs and different experiments.
